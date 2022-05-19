@@ -1,0 +1,89 @@
+body {
+    font-family: 'Times New Roman';
+    letter-spacing: 1px; /*espaço entre letras*/
+    word-spacing: 1.5px; /*espaço entre palavras*/
+    background-color: rgb(230,230,250); /*muda a cor de fundo*/
+    overflow-x:inherit;
+}
+
+header {
+    border: 3px solid rgb(204, 204, 236); /*muda a borda*/
+    border-collapse: collapse;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+
+#logo {
+    height: 125px;
+    display: flex;
+    display: inline-block;
+    margin: 15px 30px 10px 25px;
+}
+
+header h1{
+    color: rgb(75,0,130);
+    font-size: 40px;
+    font-weight: lighter;
+    text-shadow: -2px 2px 4px rgb(105,105,105);
+}
+
+.pagina-inicial {
+    background-color: rgb(147,112,219);
+    font-size: 25px;
+    font-weight: bolder;
+    letter-spacing: 5px;
+    padding: 15px 40px;
+    margin: 2px 0;
+    text-align: center;
+    height: 60px;
+}
+
+.pagina-inicial li {
+    display: flex;
+    display: inline-block;
+}
+
+.pagina-inicial a {
+    color: white;
+}
+
+.pagina-inicial a:hover {
+    color: lightgray;
+    font-size: 35px;
+    text-decoration:wavy;
+}
+
+#saude-fisica {
+    text-align: center;
+    color: rgb(28,28,28);
+    display: inline-box;
+    width: 85%;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+#saude-fisica img {
+    max-width: 1000px;
+    margin: 10px 50px -90px 0px;
+}
+
+#saude-fisica p {
+    box-shadow: -3px 2px 15px rgb(115, 115, 185);
+    font-size: 20px;
+    margin: 15px 10px;
+    text-indent: 4em;
+    text-align: justify;
+    line-height: 1.8em;
+    padding: 2px 80px;
+    display: inline-block;
+    width: 90%;
+    font-weight: bold;
+}
+
+.img-logo {
+    float: right;
+    width: 20%
+}
+
